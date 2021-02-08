@@ -39,14 +39,14 @@ $base-color-hover: darken($base-color, 15%);
 
 // Define background colors
 $background: #fff;
-$background-alt: #f2f2f5;
+$background-alt: #dcdce4;
 
 // Define border colors
 $border: #dcd9d9;
 
 // Define text colors
-$heading: #374054;
-$text: #74808a;
+$heading: #603cba;
+$text: #000000;
 
 /*
     ---------------------
@@ -115,7 +115,7 @@ body {
             h4 {
                 font-size: 1.2em;
                 font-weight: 300;
-                color: #7e8890;
+                color: black;
                 margin: 0 0 15px 0;
             }
 
@@ -595,7 +595,8 @@ footer {
     max-width: 700px;
     margin: 0 auto 30px auto;
     padding: 15px;
-    border: 1px solid $border;
+    border: 2px solid $border;
+    border-color: lightslategray;
     text-align: left;
 
     h3 {
